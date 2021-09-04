@@ -1,0 +1,132 @@
+.fonte {
+	font-family:Andale Mono, monospace;
+	color:#4B0082;
+}
+#title{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 7px;
+	margin-top:20px;
+}
+#title:hover{
+	color:purple;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+	color: purple;
+}
+body {
+	background-color: black;
+}
+.purple-box{
+	width:600px;
+	height:400px;
+	border:solid purple; 
+	margin: 7% 25% 7% 25%;
+	border-radius:40px;
+	background:black;
+}
+ul {
+	list-style: none;
+}
+.header{
+	margin:0;
+	padding:0;
+}
+.linksMenu ul{
+	padding:0 px;
+    margin:0 px;
+	float:center;
+	width:100%;
+	text-align:left;
+	margin-bottom:20px;
+}
+.linksMenu ul li{
+	display: inline;
+}
+.linksMenu ul li a {
+    padding: 0px 50px 0px 20px;
+	font-size:25px;
+}
+.linksMenu a:hover {
+	font-size:30px;
+}
+#img {
+	margin:0px 20px 20px 10px;
+	border:solid 3px #4B0082;
+	border-radius:20px;
+}
+#img:hover{
+	border:solid 3px purple;
+}
+#subt:hover {
+	color:purple;
+}
+#footer {
+	position:fixed;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+}
+#footer a{
+	color:white;
+}
+#cursos{
+	margin-bottom:30px;
+}
+@media screen and (max-width: 590px){
+	.purple-box{
+	width:100%;
+	height:auto;
+	border:solid purple; 
+	margin:0;
+	border-radius:40px;
+	background:black;
+	margin-bottom:30px;
+	}
+	#title{
+	text-align: center;
+	font-size: 70px;
+	margin-bottom: 7px;
+	margin-top:20px;
+}
+	#img {
+	width:100%;
+	height:auto;
+	margin:0;
+	border:solid 3px #4B0082;
+	border-radius:20px;
+	}
+	.linksMenu ul{
+	padding:0 px;
+    margin:0 px;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:center;
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+}
+.linksMenu ul li{
+	display: block;
+	margin-top:15px;
+}
+.linksMenu ul li a {
+    padding: 0px 70px 0px 0px;
+	font-size:6vw;
+}
+#subt{
+	text-align:center;
+}
+#formacao{
+	text-align:center;
+}
+.fonte li{
+	text-align:center;
+	padding-right:30px;
+}
+}
